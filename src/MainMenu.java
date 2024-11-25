@@ -8,7 +8,7 @@ public class MainMenu {
             //For at oprette en bruger
             System.out.println("Enter name: ");
             String name = scanner nextLine(); //Henter navn fra brugeren
-            System.out.println("Welcome, " + name);
+            System.out.println("Hello, " + name);
 
 
             //For at logge ind med brugernavn
