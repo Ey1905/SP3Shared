@@ -1,2 +1,2 @@
-Nadine100: 12345678
-Ebru200: 1905
+User1: Username: Nadine123, Password: password123, Watchlist: The Godfather, Casablanca, Watch History: Raging Bull, Schindler's List;
+User2: Username: Ebru321, Password: password321, Watchlist: Citizen Kane, Gone With The Wind, Watch History: The Wizard Of Oz, Lawrence Of Arabia;

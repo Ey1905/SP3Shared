@@ -30,7 +30,7 @@ public class User {
 
     //Kode for at vise de film der ligger under WatchList
     public void displayWatchList(){
-        if (watchList.isEmty()) { //Bruges for at se om listen er tom
+        if (watchList.isEmpty()) { //Bruges for at se om listen er tom
             System.out.println("Your WatchList is empty:"); //Besked til brugeren
         } else {
             System.out.println("Your WatchList:"); //Besked til brugeren
@@ -42,5 +42,6 @@ public class User {
 
 }
 
+//boolean til om username og password er true eller false
     }
 }
