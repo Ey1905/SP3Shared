@@ -42,7 +42,16 @@ public class User {
     }
 
 
-    public void playMovie(Movie movie) {
-        System.out.println("")
+
+    //Kode for at vise de film der ligger under WatchHistory
+    public void displayWatchHistory() {
+        if (watchHistory.isEmpty()) { //Bruges for at se om listen er tom
+            System.out.println("Your WatchHistory is empty "); //Besked til brugeren
+        } else {
+            System.out.println("Your WatchHistory: "); //Besked til brugeren
+            for (Movie movie : watchHistory) { //Skal gå igennem den liste med alle film
+                System.out.println("- " + movie.getTitle() + " (" + movie.getGenre() + ")");
+            }
+        }
     }
 }
