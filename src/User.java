@@ -35,12 +35,14 @@ public class User {
         } else {
             System.out.println("Your WatchList:"); //Besked til brugeren
             for (Movie movie : watchList) { //Skal gå igennem den liste med alle film
-                System.out.println(//Forstår ikke hvad der skal stå her)
+                System.out.println("- " + movie.getTitle() + " (" + movie.getGenre() + ")");
+
             }
         }
     }
 
-}
 
+    public void playMovie(Movie movie) {
+        System.out.println("")
     }
 }

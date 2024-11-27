@@ -24,7 +24,7 @@ public class MainMenu {
             if(username.equals("Nadine") && password.equals("12345678")) {
                 System.out.println("Welcome back Nadine :), " + username + ".");
             } else {
-                System.out.println("Forkert brugernavn eller kode ");
+                System.out.println("Forkert brugernavn eller kode ");  //Hvis koden eller brugernavnet er forkert, skal dette printes ud
             }
 
             //Det er ikke så vigtig at bruge "scanner.close" i vores program, men til større projekter er det vigtigt.
